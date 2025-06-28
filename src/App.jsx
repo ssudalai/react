@@ -1,5 +1,18 @@
+function Greeting(){
+  return <>
+  <h1>Hello, world !</h1>
+    <p>this is sudalai</p>
+  </>
+}
+
+
+
 function App(){
-  return <h1>Hello , World!</h1>
+  return <>
+  <Greeting />
+  <Greeting />
+  <Greeting />
+  </>
 }
 
 export default App;
